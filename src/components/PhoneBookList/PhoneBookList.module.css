@@ -1,0 +1,22 @@
+.listContainer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.itemFadeEnter {
+  transform: translateX(-100%);
+}
+.itemFadeEnterActive {
+  transform: translateX(0%);
+  transition: all 250ms linear;
+}
+
+.itemFadeExit {
+  transform: translateX(0%);
+}
+
+.itemFadeExitActive {
+  transform: translateX(-100%);
+  transition: all 250ms linear;
+}

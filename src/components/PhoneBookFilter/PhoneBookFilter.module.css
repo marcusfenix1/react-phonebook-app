@@ -1,0 +1,26 @@
+.section {
+  width: 300px;
+  display: flex;
+  margin: 0px 0px 15px 0px;
+  padding: 15px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filterFadeEnter {
+  transform: scale(0.1);
+}
+.filterFadeEnterActive {
+  transform: scale(1);
+  transition: all 250ms linear;
+}
+
+.filterFadeExit {
+  transform: scale(1);
+}
+
+.filterFadeExitActive {
+  transform: scale(0.1);
+  transition: all 250ms linear;
+}

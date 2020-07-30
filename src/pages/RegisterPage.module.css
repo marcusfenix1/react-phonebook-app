@@ -1,0 +1,15 @@
+.paper {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  background-color: rgb(245, 0, 87);
+  margin-bottom: 15px;
+}
+
+.avatarSign {
+  margin-bottom: 15px;
+}

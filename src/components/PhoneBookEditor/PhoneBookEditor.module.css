@@ -1,0 +1,26 @@
+.fieldNameInput {
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.addItemButton {
+  width: 100%;
+}
+
+.notificationFadeEnter {
+  transform: translateX(+100%);
+}
+
+.notificationFadeEnterActive {
+  transform: translateX(0%);
+  transition: all 250ms linear;
+}
+
+.notificationFadeExit {
+  transform: translateX(0%);
+}
+
+.notificationFadeExitActive {
+  transform: translateX(+150%);
+  transition: all 250ms linear;
+}
